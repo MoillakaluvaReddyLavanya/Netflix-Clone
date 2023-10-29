@@ -1,0 +1,436 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#homepage{
+    height: 110vh;
+    width: 100%;
+    background-image:  linear-gradient(to top, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 100%),url(./netflixhomepage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+
+}
+#homepage>article{
+    height: 100px;
+    width: 100%;
+   /* background-color: chartreuse;  */
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#homepage>article>main{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+#homepage>article>main>.logo{
+    height: 100%;
+    width: 50%;
+   /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+#homepage>article>main>.logo>svg{
+    height: 40%;
+    width: 32%;
+    fill:rgb(229,9,20);
+    margin-top: 1px;
+}
+#homepage>article>main>.btns{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    /*background-color: blue;*/
+}
+#homepage>article>main>.btns>select{
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    margin-top: 30px;
+    
+}
+#homepage>article>main>.btns>button{
+    height: 31px;
+    width: 80px;
+    background-color: rgb(229,9,20);
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#homepage>span{
+    height: 20%;
+    width:100%;
+    margin-top:15%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    
+    
+   
+    
+}
+#homepage>span>h1{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#homepage>span>#a{
+    text-align: center;
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#homepage>span>#b{
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#homepage>em{
+    height: 20%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    /* background-color: aquamarine; */
+    
+   
+
+}
+#homepage>em>button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(229,9,20);
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#homepage>em>input{
+    height: 50px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    margin-top: 30px;
+}
+#page2{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#page2>article{
+    height:60%;
+    width:100%;
+    /* background-color: blue; */
+    display:flex;
+    justify-content:center;
+    
+}
+#page2 #half1{
+    height:100%;
+    width:50%;
+    /* background-color:aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    align-items:center;
+    color:white;
+    
+}
+#page2 #half1>h1{
+    font-size: 60px;
+    padding-left:10%;
+    padding-bottom: 2%;
+}
+#page2 #half1>p{
+    
+    font-size:30px;
+    padding-left:20%;
+    
+
+}
+#page2 #half2{
+    height:100%;
+    width:50%;
+    /* background-color:red; */
+    background-image: url(./tv.png);
+    background-repeat:no-repeat;
+   
+}
+#page2 video{
+    padding-left:10%;
+    padding-top:13%;
+}
+#page3{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#page3>article{
+    height:60%;
+    width:100%;
+    /* background-color: blue; */
+    display:flex;
+    justify-content:center;
+}
+#page3 #half2{
+    height:100%;
+    width:50%;
+    /* background-color:aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* align-items:center;
+    align-items:flex-end; */
+    color:white;
+    
+    
+}
+#page3 #half2>h1{
+    font-size: 50px;
+    padding-left:10%;
+    padding-bottom: 2%;
+}
+#page3 p{
+    
+    font-size:30px;
+    padding-left:10%;
+    
+
+}
+#page3 #half1{
+    height:100%;
+    width:50%;
+    /* background-color:red; */
+    background-image:url(./page3.jpg);
+    background-repeat:no-repeat;
+    
+}
+#page3>article>#half1>em{
+    height:15%;
+    width:28%;
+    background-color:black;
+    border-radius: 32px;
+    position:absolute;
+    margin-top: 23%;
+    margin-left:8%;
+    margin-bottom:20%;
+    color:white;
+    border:1px solid white;
+    /* display: flex; */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+#page3>article>#half1>em img{
+    margin-left: 5%;
+}
+#page3 #half1 em>span>p{
+    font-size:14px;
+    color:skyblue;
+}
+#page3 #half1 em>span>h1{
+    font-size:16px;
+    
+}
+#page4{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#page4>article{
+    height:60%;
+    width:100%;
+    /* background-color: blue; */
+    display:flex;
+    justify-content:center;
+    
+}
+#page4 #half1{
+    height:100%;
+    width:50%;
+    /* background-color:aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    align-items:center;
+    color:white;
+    
+}
+#page4 #half1>h1{
+    font-size: 60px;
+    padding-left:10%;
+    padding-bottom: 2%;
+}
+#page4 #half1>p{
+    
+    font-size:30px;
+    padding-left:20%;
+    
+
+}
+#page4 #half2{
+    height:100%;
+    width:50%;
+    /* background-color:red; */
+    background-image: url(./appletv.png);
+    background-repeat:no-repeat;
+    
+   
+}
+#page4 video{
+
+
+    width:50%;
+    margin-left:18%;
+    margin-top:9%;
+    /* padding-top:13%; */
+}
+
+#page5{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#page5>article{
+    height:60%;
+    width:100%;
+    /* background-color: blue; */
+    display:flex;
+    justify-content:center;
+}
+#page5 #half2{
+    height:100%;
+    width:50%;
+    /* background-color:aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* align-items:center;
+    align-items:flex-end; */
+    color:white;
+}
+#page5 #half2>h1{
+    font-size: 50px;
+    padding-left:10%;
+    padding-bottom: 2%;
+}
+#page5 p{
+    
+    font-size:30px;
+    padding-left:10%;
+    
+
+}
+#page5 #half1{
+    height:100%;
+    width:50%;
+    /* background-color:red; */
+    background-image:url(./page5.png);
+    background-repeat:no-repeat;
+    margin-left:10%;
+}
+#page6
+{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page6>p{
+    height:70px;
+    width:80%;
+    background-color:slategrey;
+    margin-bottom:0.1px;
+}
+#page6>h1{
+    font-size:55px;
+}
+
+
+#page6 button
+{
+    height:50px;
+    width:300px;
+    background-color: red;
+    border-radius:5px;
+    font-size: 24px;
+    color: white;
+    
+
+}
+#page6 input{
+    height:50px;
+    width:500px;
+    background-color:slategray;
+    border-radius:5px;
+    border:1px solid green;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    
+}
+#page7{
+    height: 100vh;
+    width:100%;
+    background-color: black;
+
+}
+#page7>article{
+    height:100%;
+    width:70%;
+    margin-left:20%;
+   
+
+    
+}
+a:link{
+    color:white;
+}
